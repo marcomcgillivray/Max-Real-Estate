@@ -85,6 +85,24 @@
         }
     }
 
+    // Show Blue Logo Until body scroll
+    body.dark-mode {
+        background-color: var(--dark);
+        // hide all light classes
+        .light {
+            display: none;
+        }
+
+        // show all dark classes
+        .dark {
+            display: block !important;
+        }
+    }
+
+    .dark {
+        display: none;
+    }
+
     .topper {
         font-size: var(--topperFontSize);
         color: var(--accent);

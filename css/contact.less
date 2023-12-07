@@ -35,12 +35,10 @@
         }
 
         .content {
-            /* set text aling to left if content needs to be left aligned */
             text-align: left;
             width: 100%;
             display: flex;
             flex-direction: column;
-            /* centers content horizontally, set to flex-start to left align */
             align-items: flex-start;
         }
 
@@ -114,7 +112,6 @@
             display: inline-block;
             position: relative;
             z-index: 1;
-            /* prevents padding from adding to the width */
             box-sizing: border-box;
             transition: color 0.3s;
 
@@ -150,7 +147,6 @@
         }
 
         .flex {
-            /* resets to 100% at desktop */
             width: 49%;
             display: flex;
             flex-direction: column;
@@ -182,7 +178,6 @@
         }
 
         .phone {
-            /* scoot it 8px up to override the 16px gap on the parent and make it 8px */
             margin-top: (-8/16rem);
         }
 
@@ -265,7 +260,6 @@
         .right {
             width: (304/16rem);
             flex-direction: column;
-            /* prevent flexbox from squishing it */
             flex: none;
 
         }
@@ -275,7 +269,6 @@
         }
 
         .social {
-            /* adds an extra 16px + 48px row gap on the parent to make 64px space between */
             margin-top: (16/16rem);
         }
     }

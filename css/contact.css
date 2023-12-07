@@ -47,7 +47,6 @@
     gap: 3rem;
   }
   #contact .content {
-    /* set text aling to left if content needs to be left aligned */
     text-align: left;
     width: 100%;
     display: -webkit-box;
@@ -57,7 +56,6 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    /* centers content horizontally, set to flex-start to left align */
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
@@ -161,7 +159,6 @@
     display: inline-block;
     position: relative;
     z-index: 1;
-    /* prevents padding from adding to the width */
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     -webkit-transition: color 0.3s;
@@ -203,7 +200,6 @@
     row-gap: 3rem;
   }
   #contact .flex {
-    /* resets to 100% at desktop */
     width: 49%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -239,7 +235,6 @@
     text-decoration: underline;
   }
   #contact .phone {
-    /* scoot it 8px up to override the 16px gap on the parent and make it 8px */
     margin-top: -0.5rem;
   }
   #contact .social {
@@ -333,7 +328,6 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    /* prevent flexbox from squishing it */
     -webkit-box-flex: 0;
         -ms-flex: none;
             flex: none;
@@ -342,7 +336,6 @@
     width: 100%;
   }
   #contact .social {
-    /* adds an extra 16px + 48px row gap on the parent to make 64px space between */
     margin-top: 1rem;
   }
 }

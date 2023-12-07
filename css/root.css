@@ -82,6 +82,18 @@
   button:hover {
     cursor: pointer;
   }
+  body.dark-mode {
+    background-color: var(--dark);
+  }
+  body.dark-mode .light {
+    display: none;
+  }
+  body.dark-mode .dark {
+    display: block !important;
+  }
+  .dark {
+    display: none;
+  }
   .topper {
     font-size: var(--topperFontSize);
     color: var(--accent);
