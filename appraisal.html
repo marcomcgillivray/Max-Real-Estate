@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Swap our for actual link-->
+    <link rel="canonical" href="https://www.maxmcgillivray.co.nz/appraisals.html">
+
+    <meta name="description" content="Max McGillivray offers free, no obligation property appraisals for your home. Looking to sell your house? Fill out the form for a free property appraisal amd get your house on the market ASAP">
+    <meta name="keywords" content="Free Property Appraisal, How much is my home worth, property value, sell my home, sell my house">
+
+    <!--Social Media Display-->
+    <meta property="og:title" content="Free Property Appraisal | Max McGillivray Harcourts Real Estate Agent"/>
+    <meta property="og:description" content="Max McGillivray offers free, no obligation property appraisals for your home. Looking to sell your house? Fill out the form for a free property appraisal amd get your house on the market ASAP"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.maxmcgillivray.co.nz/appraisals.html"/>
+    <meta property="og:image" content="/images/social.jpg"/>
+    <meta property="og:image:secure_url" content="/images/social.jpg"/>
+
+    <!--Favicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v1">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Preload -->
+    <link rel="preload" as="image" href="/images/max-headshot-m.webp">
+    <link rel="preload" as="font" type="font/ttf" href="fonts/Montserrat/static/Montserrat-SemiBold.ttf" crossorigin>
+    <link rel="preload" as="font" type="font/ttf" href="fonts/Montserrat/static/Montserrat-SemiBold.ttf" crossorigin>
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="stylesheet" href="/css/dark.css">
+
+
+
+    <title>Max McGillivray | Free Appraisal</title>
+</head>
+<body>
+    <!--Screen reader skip main nav-->
+    <a class="skip" aria-label="skip to main content" href="#main">Click To Skip To Main Content</a>
+
+    <!-- ============================================ -->
+    <!--                 Navigation                   -->
+    <!-- ============================================ -->
+
+    <div id="navigation">
+        <div aria-hidden="true" class="background-color-div">
+
+        </div>
+        <div class="container">
+            
+            <a class="logo" aria-label="click to go to home page" href="/index.html">
+                <img class="light" aria-hidden="true" src="/images/harcourts.webp" decoding="async" alt="logo" width="221" height="69">
+
+                <!--Dark Colored Logo-->
+                <img class="dark" aria-hidden="true" src="/images/harcourts-logo-white.webp" decoding="async" loading="lazy" alt="logo" width="235" height="53">
+            </a>
+
+            <!--Main Nav-->
+            <nav id="navbar-menu">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a class='active' href='/appraisal.html'>Free Appraisal</a></li>
+                    <li><a href="/listings.html">Current Listings</a></li>
+                    <li><a href="/sold.html">Sold</a></li>
+                    <li><a target="_blank" href="https://www.ratemyagent.co.nz/real-estate-agent/max-mcgillivray-au514/sales/overview">Reviews</a></li>
+                    <li><a id='contact' href="/contact.html">Contact Max</a></li>
+                </ul>
+            </nav>
+
+
+
+            <!--Mobile Nav toggle-->
+            <button class="hamburger-menu" aria-label="button">
+                <span aria-hidden="true"></span>
+            </button>
+        </div>
+    </div>
+
+    <main id="main">
+
+        <!-- ============================================ -->
+        <!--                    LANDING                   -->
+        <!-- ============================================ -->
+    
+        <section id="int-hero">
+            <h1 id="home-h">Free Property Appraisal</h1>
+            <picture>
+                <source media="(max-width: 600px)" srcset="/images/max-hero.webp">
+                <source media="(min-width: 601px)" srcset="/images/max-hero.webp">
+                <img aria-hidden="true" loading="lazy" decoding="async" src="/images/max-hero.webp" alt="Max Alt Hero" width="1440" height="1452">
+            </picture>
+        </section>
+
+        <!-- ============================================ -->
+        <!--                    FORM                      -->
+        <!-- ============================================ -->
+
+        <section id="contact">
+            <div class="container">
+                <div class="left">
+                    <div class="content">
+                        <span class="topper">Free Appraisal</span>
+                        <h2 class="title">Free Property Appraisal</h2>
+                        <p class="text">
+                            Want to know the value of your home? Fill out the form and I will create a detailed market report for you, clearly explaining the value of your property.
+
+                            This report is free, with no obligation to sell. We look forward to hearing from you.
+                        </p>
+                    </div>
+                    <!--Form-->
+                    <form class="form" id="appraisal-form" name="Appraisal Form" method="post" netlify>
+                        <label class="label">
+                            Name
+                            <input class="input" required type="text" id="name" name="name" placeholder="Name">
+                        </label>
+                        <label class="label">
+                            Phone
+                            <input class="input" required type="text" id="phone" name="phone" placeholder="Phone">
+                        </label>
+                        <label class="label">
+                            Email
+                            <input class="input" required type="text" id="email" name="email" placeholder="Email">
+                        </label>
+                        <label class="label">
+                            Address
+                            <input class="input" required type="text" id="address" name="Property Address" placeholder="Property Address">
+                        </label>
+                        <label class="label">
+                            Suburb
+                            <input class="input" required type="text" id="address" name="Suburb" placeholder="Suburb">
+                        </label>
+                        <label class="label">
+                            Postcode
+                            <input class="input" required type="text" id="address" name="Postcode" placeholder="Postcode">
+                        </label>
+                        <label class="label message">
+                            Message
+                            <textarea class="input textarea" required name="Message" id="message" placeholder="Write message..."></textarea>
+                        </label>
+                        <button class="button-solid" type="submit">Send Now</button>
+                    </form>
+                </div>
+                <div class="right">
+                    <div class="flex">
+                        <span class="header">My Office</span>
+                        <a href="" class="link">Harcourts Ilam 2<br> 397 Ilam Road, <br> Bryndwr, <br> Christchurch 8053</a>
+                    </div>
+                    <div class="flex">
+                        <span class="header">Contact Information</span>
+                        <a href="mailto: max.mcgillivray@hotmail.co.nz" class="link">Click to Email:<br> max.mcgillivray@hotmail.co.nz</a>
+                        <a href="tel:027 207 3046" class="link phone">Click to Phone: <br> 027 207 3046</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ============================================ -->
+    <!--                   Footer                     -->
+    <!-- ============================================ -->
+
+
+    <footer id="footer">
+        <div class="container">
+            <div class="left-section">
+                <a class="logo" href="/index.html"><img loading="lazy" decoding="async" src="/images/harcourts-logo-white.webp" alt="logo" width="235" height="53"></a>
+            </div>
+            <div class="right-section">
+                <div class="lists">
+                    <ul>
+                        <li><h2>Navigation</h2></li>
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/appraisal.html">Free Appraisal</a></li>
+                        <li><a href="/listings.html">Current Listings</a></li>
+                        <li><a href="/sold.html">Sold</a></li>
+                        <li><a a target="_blank" href="https://www.ratemyagent.co.nz/real-estate-agent/max-mcgillivray-au514/sales/overview">Reviews</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                    <ul>
+                        <li><h2>Contact</h2></li>
+                        <li><a href="tel:027-207-3046">Click to Phone: <br> 027 207 3046</a></li>
+                        <li><a href="mailto:max.mcgillivray@harcourts.co.nz">Click to Email <br> max.mcgillivray@harcourts.co.nz</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="credit">
+            <span>Designed and Hand Coded by</span>
+            <a href="" target="_blank" rel="noopener">Marco McGillivray</a>
+            <span class="copyright"> &copy; Copyright 2023 - Present</span></div>
+    </footer>
+
+    <script defer src="/nav.js"></script>
+    <script defer src="/dark.js"></script>
+
+    <script defer>
+        document.addEventListener('scroll', (e) => { 
+            const scroll = document.documentElement.scrollTop;
+            if(scroll >= 100){
+        document.querySelector('body').classList.add('scroll')
+            } else {
+            document.querySelector('body').classList.remove('scroll')
+            }
+        });
+    </script>
+
+</body>
+</html>
