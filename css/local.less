@@ -86,6 +86,36 @@
         .picture1 {
             height: 95vw;
             max-height: (400/16rem);
+            a {
+                z-index: 1;
+            }
+            .play-btn {
+                display: flex;
+                height: 50px;
+                width: 75px;
+                position: relative;
+                z-index: 1;
+                background-color: red;
+                margin: auto;
+                align-items: center;
+                top: 50%;
+                border-radius: 5px;
+        }
+        &::after {
+            content: '';
+            position: relative;
+            display: block;
+            top: 41%;
+            margin: auto;
+            z-index: 10000;
+            width: 0;
+            height: 0;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+            border-left: 15px solid white;
+            border-radius: 3px;
+            cursor: pointer;
+        }
         }
 
         .picture2 {
@@ -167,6 +197,13 @@
             min-height: clamp(21.25rem, 35vw, 28.75rem);
             height: 100%;
             max-height: 100%;
+            .play-btn {
+                &::after {
+                    &::after {
+                        top: 43%;
+                    }
+                }
+            }
         }
 
         .picture2 {

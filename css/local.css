@@ -92,6 +92,40 @@
     height: 95vw;
     max-height: 25rem;
   }
+  #featured-property .picture1 a {
+    z-index: 1;
+  }
+  #featured-property .picture1 .play-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 50px;
+    width: 75px;
+    position: relative;
+    z-index: 1;
+    background-color: red;
+    margin: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    top: 50%;
+    border-radius: 5px;
+  }
+  #featured-property .picture1::after {
+    content: '';
+    position: relative;
+    display: block;
+    top: 41%;
+    margin: auto;
+    z-index: 10000;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+  }
   #featured-property .picture2 {
     height: 111vw;
     max-height: 31.25rem;
@@ -181,6 +215,9 @@
     min-height: clamp(21.25rem, 35vw, 28.75rem);
     height: 100%;
     max-height: 100%;
+  }
+  #featured-property .picture1 .play-btn::after::after {
+    top: 43%;
   }
   #featured-property .picture2 {
     /* 530px - 660px */
